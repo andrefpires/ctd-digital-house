@@ -1,2 +1,3 @@
-# exercicios-digital-house
-Exercícios Realizados no CTD da Digital House.
+# Certified Tech Developer | Digital House
+## Exercícios Realizados no CTD da Digital House.
+

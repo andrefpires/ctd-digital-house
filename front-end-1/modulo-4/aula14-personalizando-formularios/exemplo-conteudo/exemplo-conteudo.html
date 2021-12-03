@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando formulários</title>
+  <link rel="stylesheet" href="./style/exemplo-conteudo.css">
+</head>
+<body>
+  <form action="exemplo-conteudo.html">
+    <section class="secao">
+      <label for="nome">Nome (obrigatório):</label> <!-- Tags dos tipos input, textarea, select, password, file... Devem ter a label escrita antes ou acima do campo-->
+      <input type="text" name="nome" id="nome">
+    </section>
+    <fieldset class="secao">
+      <legend>Qual sua cor favorita ?</legend> <!-- Descrição do agrupamento -->
+      <section>
+        <input type="radio" name="cor" id="azul">
+        <label for="azul">Azul</label> <!-- Inputs dos tipos checkbox ou radio button vevem ter a label escrita depois do campo -->
+      </section>
+      <section>
+        <input type="radio" name="cor" id="vermelho">
+        <label for="vermelho">Vermelho</label>
+      </section>
+      <section>
+        <input type="radio" name="cor" id="verde">
+        <label for="verde">Verde</label>
+      </section>
+      <section>
+        <input type="radio" name="cor" id="amarelo">
+        <label for="amarelo">Amarelo</label>
+      </section>
+    </fieldset>
+    <section class="secao">
+      <label for="carros">Qual seu carro preferido?</label>
+      <select name="carros" id="carros">
+        <optgroup label="Ferrari"> <!-- Agrupa as opções de seleção nomeando pelo atributo "label" -->
+          <option value="458 spider">458 Spider</option>
+          <option value="f12 berlinetta">F12 Berlinetta</option>
+          <option value="california t">California T</option>
+        </optgroup>
+        <optgroup label="Porsche">
+          <option value="macan">Macan</option>
+          <option value="918 spyder">918 Spyder</option>
+        </optgroup>
+      </select>
+    </section>
+    <fieldset class="secao">
+      <legend>Quais seus hobbies?</legend> <!-- Descrição do agrupamento -->
+      <section>
+        <input type="checkbox" name="hobbies" id="futebol">
+        <label for="futebol">Futebol</label> <!-- Inputs dos tipos checkbox ou radio button vevem ter a label escrita depois do campo -->
+      </section>
+      <section>
+        <input type="checkbox" name="hobbies" id="musica">
+        <label for="musica">Instrumentos Músicais</label>
+      </section>
+      <section>
+        <input type="checkbox" name="hobbies" id="filmes">
+        <label for="filmes">Ver Filmes</label>
+      </section>
+      <section>
+        <input type="checkbox" name="hobbies" id="exercitar">
+        <label for="exercitar">Atividade Física</label>
+      </section>
+    </fieldset>
+    <input type="date" min="1960-01-01" max="2003-10-23">
+  </form>
+</body>
+</html>

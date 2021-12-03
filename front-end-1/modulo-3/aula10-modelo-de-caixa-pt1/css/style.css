@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+body {
+  background-color: #131313;
+  background-position: center;
+  background-size: 34%;
+  background-image: url("../imagens/guardioes.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: rgb(165, 81, 81);
+  border: hidden;
+  padding: 14px;
+  border-radius: 10px;
+}

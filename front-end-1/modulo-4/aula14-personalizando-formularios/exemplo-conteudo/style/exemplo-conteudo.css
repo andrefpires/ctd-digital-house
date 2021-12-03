@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-weight: bold;
+}
+
+.secao {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  margin: 0 40%;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Nunito:wght@200&display=swap');
+
+body {
+  font-size: 20px;
+}
+
+a:hover {
+  color: indigo;
+}
+
+.dadosPessoais:focus {
+  font-weight: bold;
+  border: 1px solid rgb(104, 98, 98);
+}
+
+#descricao::first-letter {
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+textarea:disabled {
+  background-color: rgba(128, 14, 14, 0.3);
+  border: 1px solid rgb(128, 14, 14);
+}
+
+input:enabled {
+  background-color: rgba(33, 104, 33, 0.1);
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+}
+
+button:nth-child(6) {
+  background-color: green;
+}
+
+input:checked {
+  height: 18px;
+  width: 18px;
+}

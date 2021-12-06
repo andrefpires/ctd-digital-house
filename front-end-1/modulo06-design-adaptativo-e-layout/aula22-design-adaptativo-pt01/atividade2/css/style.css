@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+  text-align: center;
+  background-image: url("../imagens/cristina.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(236, 226, 226);
+  padding: 20px;
+  background-color: rgb(117, 64, 64);
+}
+
+p {
+  padding: 10px;  
+  font-family: 'Estonia', cursive;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 400px;
+  margin: 0 8px; 
+}
+
+#curiosidades {
+  padding: 10px;
+  margin: 0 8px;
+  font-family: 'Estonia', cursive;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+iframe {
+  margin: 40px 4%;
+  width: 640px;
+  height: 360px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#facebook {
+  width: 80px;
+}
+
+#instagram {
+  width: 80px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+
+@media (max-width: 886px) {
+  #curiosidades {
+    font-family: 'Estonia', cursive;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 40px;
+  }
+}

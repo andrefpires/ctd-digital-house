@@ -8,9 +8,8 @@ function Aluno (nome, quantidadeFaltas, notas) {
     }, 0)
 
     const media = total / this.notas.length;
-    const resposta = `A média de ${this.nome} é: ${media.toFixed(2)}`;
 
-    return resposta;
+    return parseFloat(media.toFixed(2));
   },
   this.faltas = () => {
     this.quantidadeFaltas += 1;

@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../imagens/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100vh;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header > div > img {
+  width: 140px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.8);
+  color: white;
+}
+
+#banner > div > h2{
+  color: rgb(247, 45, 45);
+  font-size: 2.5rem;
+}
+
+#banner > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+#banner > button {
+  background-color: rgba(4, 131, 4, 0.1);
+  border: green 1px solid;
+  padding: 10px 20px;
+  width: 160px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+#filmes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filme {
+  background-color: rgb(226, 226, 226);
+  margin: 40px;
+  transition-property: transform;
+  transition-duration: 400ms;
+  width: 300px;
+  border-radius: 14px;
+}
+
+.filme:hover{
+  transform: scale(1.15);
+}
+
+#itens {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.filme > section {
+  margin: 10px 0 0 10px;
+  text-align: left;
+}
+
+.descricao {
+  font-size: 0.85rem;
+}
+
+.filme > img {
+  width: 100%;
+  height: 180px;
+  border-radius: 14px 14px 0 0;
+}
+
+.filme > a > button {
+  margin: 60px 0 10px 0;
+  background-color: rgb(47, 141, 47);
+  color: white;
+  width: 80%;
+  font-weight: bold;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 28px 0;
+  background-color: rgb(48, 48, 48);
+  color: rgb(190, 190, 190);
+}
+
+.logos {
+  width: 28px;
+}
+
+h2 {
+  font-size: 2rem;
+}

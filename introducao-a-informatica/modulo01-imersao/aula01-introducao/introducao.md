@@ -33,3 +33,5 @@ São computadores que respondem a solicitações feitas pelos clientes a partir 
 - **Interface gráfica de comando (GUI):** Permite a comunicação com o computador de forma rápida e intuitiva, representando graficamente os elementos de controle e medição.
 
 - **Interface nativa de usuário (NUI):** Podem ser táteis, representando graficamente um "painel de controle" em uma tela sensível ao toque; As alterações desejadas também podem ser feitas a partir do reconhecimento de fala ou movimentos corporais, como em alguns video games.
+
+Atividade proposta: https://padlet.com/andrefpires1/ke549pkw3c2oxr73

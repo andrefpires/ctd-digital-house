@@ -1,0 +1,8 @@
+## Estrutura e tecnologia do computador
+O mundo vem se tornando mais tecnológico a cada dia na era da informação, as tecnologias se atualizam cada vez mais rápido, e temos dispositivos eletrônicos de variados tamanhos
+e destinados a diferentes propósitos. Afinal, o que é necessário para ter um computador? Um computador deve ser capaz de receber dados (input), processar, e retornar o resultado
+esperado em um dispositivo de saída (output), que podem ser armazenados, transmitidos ou impressos.
+
+A comunicação entre o usuário e máquina pode ser feito através do pressionamento de teclas. Por exemplo, ao clickar no botão do mouse para pausar um vídeo, são mandados pulsos magnéticos
+negativos e positivos, através do barramento de dados, que são processados pela CPU em bits (binary digit). Com o auxílio da memória ROM, o processador procura por intruções de como executar
+aquela ação pedida pelo usuário, procurando por informações como qual botão foi clicado, o software em que ele está inserido, entre outras...

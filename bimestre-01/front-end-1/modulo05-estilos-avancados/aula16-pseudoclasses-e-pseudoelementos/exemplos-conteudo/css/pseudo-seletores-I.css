@@ -1,0 +1,69 @@
+/*
+Pseudo-seletores são uma forma alternativa de alicar efeitos e estilos aos elementos, em função de seu estado ou organização.
+*/
+
+/*
+Pseudo-classes
+São agregadas a seletores que ja conhecemos, e são utilizadas a partir do estado, posição na estrutura html ou por algum atributo que possuí.
+
+selector:pseudo-classe {
+  propriedade: valor;
+}
+*/
+
+a:link { /* Altera os elementos com atributo href */
+  color: orange;
+}
+
+a:visited { /* Altera os elementos com atributo href que já foram visitados */
+  color: rgb(145, 94, 0);
+}
+
+a:hover { /* Geralmente está associado ao link, mas pode ser utilizado a qualquer elemento */
+  color: blue;
+}
+
+a:active { /* É acionado ao clicar no elemento */
+  background-color: blueviolet;
+}
+
+input:focus { /* Da foco ao input que está sendo preenchido */
+  font-weight: bold;
+  color: brown;
+}
+
+input:disabled { /* Estiliza os inputs desabilitado */
+  background-color: greenyellow;
+}
+
+input:invalid { /* Estiliza os inputs se os dados inseridos forem inválidos */
+  background-color: red;
+}
+
+input:valid { /* Estiliza os inputs se os dados inseridos forem válidos */
+  background-color: green;
+}
+
+input:required { /* Estiliza o input que deve ser preenchido para que o formulário possa ser enviado */
+  background-color: orange;
+}
+
+li:nth-child(2) { /* Podemos selecionar um componente em meio a outros iguais pela sua posição */
+  color: white;
+  background-color: indigo;
+}
+
+/*
+Pseudo-elementos
+Usamos da mesma forma, mas urilizando "::" depois do seletor.
+*/
+
+div::before {
+  content: "Aparecerá antes";
+  color: green;
+}
+
+div::after {
+  content: "Aparecerá depois";
+  color: violet;
+}

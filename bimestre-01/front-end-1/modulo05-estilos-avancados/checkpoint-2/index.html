@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristina - MG</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Cristina - MG</h1>
+  </header>
+  <main>
+    <div id="curiosidades">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>Curiosidade 1</li>
+        <li>Curiosidade 2</li>
+        <li>Curiosidade 3</li>
+      </ul>
+    </div>
+    <p>
+      Conhecida como Imperatriz, a cidade está localiza numa região serrana muito bonita, no <strong>Sul de Minas Gerais</strong>, a 394 km de Belo Horizonte, bem próxima a Maria da Fé. 
+      Possui um museu que guarda objetos da antiga Estrada de Ferro Sapucaí. Sua praça central, muito bem conservada, abriga um Chafariz datado de 1869.
+      A cidade ainda é dona de <strong>belas cachoeiras</strong> e <strong>casas coloniais</strong> muito bem conservadas.
+    </p>
+    <iframe src="https://www.youtube.com/embed/UN1Bxf0vBjw" title="vídeo youtube"></iframe>
+    <div>
+      <a href="https://pt-br.facebook.com/cristinasuldeminas/"><img src="./imagens/facebook.png" id="facebook"></a>
+      <a href="https://www.instagram.com/oquefazersuldeminas/?hl=pt-br"><img src="./imagens/instagram.png" id="instagram"></a>
+    </div>
+  </main>
+  <form action="js/script.js">
+    <fieldset id="principal">
+      <legend>Vamos nos conhecer melhor?</legend>
+      <fieldset class="secoesFormulario dadosPessoais">
+        <legend>Dados pessoais</legend>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" maxlength="100">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx"> <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel --> 
+        </div>
+      <div>
+        <label for="dataNascimento">Data de nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" min="2003-11-30">
+      </div>
+      </fieldset>
+      <fieldset class="secoesFormulario">
+        <legend>Você é maior de idade?</legend>
+        <div>
+          <input type="radio" name="idade" id="sim">
+          <label for="sim">Sim</label>
+        </div>
+        <div>
+          <input type="radio" name="idade" id="nao">
+          <label for="nao">Não</label>
+        </div>
+      </fieldset>
+      <section class="secoesFormulario">
+        <label for="atividades">Escolha uma atividade de interesse:</label>
+        <select name="atividades" id="atividades">
+          <option value="cachoeira">Cachoeira</option>
+          <option value="trilhas">Trilhas</option>
+          <option value="historia cidade">Tour histórico</option>
+        </select>
+      </section>
+      <fieldset class="secoesFormulario">
+        <legend>Qual seu interesse na cidade?</legend>
+        <div>
+          <input type="checkbox" name="interesse" id="turistico">
+          <label for="turistico">Turistíco</label>
+        </div>
+        <div>
+          <input type="checkbox" name="interesse" id="residir">
+          <label for="residir">Residir</label>
+        </div>
+        <div>
+          <input type="checkbox" name="interesse" id="estudos">
+          <label for="estudos">Estudos</label>
+        </div>
+      </fieldset>
+      <section class="secoesFormulario">
+        <button type="reset">Reset</button>
+        <button type="submit" id="buttonSubmit">Submit</button>
+      </section>
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade</title>
+  <link rel="stylesheet" href="css/atividade.css">
+</head>
+<body>
+  <form>
+    <a href="#">Dicas para preencher o formulário</a>
+    <p id="descricao">Preencha esse formulário para que possamos saber mais sobre você.</p>
+    <fieldset>
+      <legend>Dados pessoais:</legend>
+      <div>
+        <label for="nome">Nome:</label>
+        <input class="dadosPessoais" type="text" id="nome">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input class="dadosPessoais" type="email" id="email">
+      </div>
+      <div>
+        <label for="senha">Senha:</label>
+        <input class="dadosPessoais" type="password" id="senha">
+      </div>
+      <div>
+        <label for="sobre">Fale um pouco sobre você:</label>
+        <textarea name="sobre" id="sobre" cols="30" rows="10" disabled></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Você possuí algum desses hobbies?</legend>
+      <div>
+        <input class="teste" type="checkbox" id="futebol">
+        <label for="futebol">Futebol</label>
+      </div>
+      <div>
+        <input type="checkbox" id="teclado">
+        <label for="teclado">Teclado</label>
+      </div>
+      <div>
+        <input type="checkbox" id="video game">
+        <label for="video game">Video game</label>
+      </div>
+    </fieldset>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

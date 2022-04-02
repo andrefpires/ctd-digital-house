@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizando Formulários</title>
+  <link rel="stylesheet" href="./css/atividade.css">
+</head>
+<body>
+  <h1>Bolos da Rafaela</h1>
+  <form>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <section class="dadosPessoais">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+      </section>
+      <section class="dadosPessoais">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="meuemail@exemplo.com">
+      </section>
+      <section class="dadosPessoais">
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco" placeholder="Rua Exemplo, 000 - Bairro Fictício">
+      </section>
+      <section class="dadosPessoais">
+        <label for="pagamento">Forma de pagamento:</label>
+        <select name="pagamento" id="pagamento">
+          <option value="Crédito">Crédito</option>
+          <option value="Débito">Débito</option>
+          <option value="Dinheiro">Dinheiro</option>
+        </select>
+      </section>
+    </fieldset>
+    <fieldset>
+      <legend>Opções de bolos</legend>
+      <section class="bolos">
+        <input type="checkbox" name="bolo-de-cenoura" id="bolo-de-cenoura" value="bolo de cenoura">
+        <label for="bolo-de-cenoura">
+          <img src="./imagens/bolo-de-cenoura.jpg" alt="Bolo de cenoura">
+          Bolo de cenoura - R$ 35,00
+        </label>
+      </section>
+      <section class="bolos">
+        <input type="checkbox" name="bolo-de-fuba" id="bolo-de-fuba" value="bolo de fuba">
+        <label for="bolo-de-fuba">
+          <img src="./imagens/bolo-de-fuba.jpg" alt="Bolo de fubá">
+          Bolo de fubá - R$ 35,00
+        </label>
+      </section>
+      <section class="bolos">
+        <input type="checkbox" name="bolo-de-formigueiro" id="bolo-de-formigueiro" value="bolo de cenoura">
+        <label for="bolo-de-formigueiro">
+          <img src="./imagens/bolo-de-formigueiro.jpg" alt="Bolo de cenoura">
+          Bolo de formigueiro - R$ 35,00
+        </label>
+      </section>
+      <section class="bolos">
+        <input type="checkbox" name="bolo-de-brigadeiro" id="bolo-de-brigadeiro" value="bolo de brigadeiro">
+        <label for="bolo-de-brigadeiro">
+          <img src="./imagens/bolo-de-brigadeiro.jpg" alt="Bolo de brigadeiro">
+          Bolo de brigadeiro - R$ 40,00
+        </label>
+      </section>
+    </fieldset>
+    <section class="botoes">
+      <button type="reset" id="reset">Reset</button>
+      <button type="submit" id="submit">Submit</button>
+    </section>
+  </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!--
+
+Com o conhecimento adquirido na aula, monte um formulário de uma empresa fictícia. Abaixo há um guia do que seu formulário deve ter.
+
+1. Selecione uma marca/logo da internet e coloque no seu site.
+2. Opcionalmente, você pode arredondar as bordas com border-radius.
+3. Seu formulário deve ter:
+  - Um input.
+  - Um textarea.
+  - Um select com options.
+  - Botões de reset e submit.
+4. Não se esqueça de personalizar o fundo do seu site com algo bacana da sua escolha!
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade formulários HTML</title>
+  <link rel="stylesheet" href="./style/atividade.css">
+</head>
+<body>
+  <h1>LOGO</h1>
+  <form action="">
+    <section>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome">
+    </section>
+    <section id="experienciaTrabalho">
+      <label for="comentario">Comente sobre suas últimas experiências na área:</label>
+      <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+    </section>
+    <section>
+      <label for="experiencia">Grau de experiência:</label>
+      <select name="experiencia" id="experiencia">
+        <option value="Baixo" disabled>Baixo</option> <!-- O atributo disable desabilita a opção -->
+        <option value="Regular">Regular</option>
+        <option value="Alto">Alto</option>
+      </select>
+    </section>
+    <button type="reset">Reset</button>
+    <button id="submitButton" type="submit">Submit</button>
+  </form>
+</body>
+</html>

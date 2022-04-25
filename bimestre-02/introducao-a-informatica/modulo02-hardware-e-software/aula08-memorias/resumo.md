@@ -32,5 +32,5 @@ As memórias são utilizadas para arquivamento de dados, em um sistema vamos enc
 - 1 MegaByte = 1024 KBytes;
 - 1 GigaByte = 1024 MegaBytes;
 - 1 TeraByte = 1024 GigaBytes;
-...
+- ...
 

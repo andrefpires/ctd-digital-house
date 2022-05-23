@@ -1,0 +1,1 @@
+Estudar o que é teste funcional, diferença entre testes caixa preta e caixa branca para processos seletivos.

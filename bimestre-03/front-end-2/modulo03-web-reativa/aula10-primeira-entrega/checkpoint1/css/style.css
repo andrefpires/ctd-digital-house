@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 1% 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
+  color: white;
+  border: 1px solid white;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+.filmesCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  background-color: grey;
+  margin: 1% 2%;
+}
+
+.filmesCard > div {
+  color:white;
+  padding: 10% 6%;
+}
+
+.filmesCard > div > p {
+  padding-top: 2%;
+}
+
+#filmes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50vh;
+}

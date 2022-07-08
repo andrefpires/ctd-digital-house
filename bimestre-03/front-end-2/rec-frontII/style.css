@@ -1,0 +1,23 @@
+* {
+  border: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imgPokemon {
+  width: 250px;
+}
+
+a > img {
+  width: 60px;
+}
